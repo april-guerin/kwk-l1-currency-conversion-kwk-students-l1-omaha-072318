@@ -32,7 +32,7 @@ def aud_to_usd(aud)
 end
 
 puts "How much money do you want to convert?"
-amount = gets.chomp().to_i
+amount = gets.to_i
 
 puts "Pick form the following menu:"
 puts "1. USD to EUR"
@@ -44,7 +44,7 @@ puts "6. JPY to USD"
 puts "7. GBP to USD"
 puts "8. AUD to USD"
 
-choice = gets.chomp().to_i
+choice = gets.to_i
 
 case choice
 when 1
