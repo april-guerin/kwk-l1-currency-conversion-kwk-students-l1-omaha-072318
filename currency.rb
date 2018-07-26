@@ -30,7 +30,7 @@ end
 def aud_to_usd(aud)
   aud /2
 end
-
+def menu_input
 puts "How much money do you want to convert?"
 amount = 10
 
@@ -65,4 +65,5 @@ when 8
   aud_to_usd(amount)
 else
   puts "Invalid input, exiting..."
+end
 end
