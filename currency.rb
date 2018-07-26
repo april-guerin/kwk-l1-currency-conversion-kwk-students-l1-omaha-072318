@@ -34,7 +34,7 @@ def menu_input
 puts "How much money do you want to convert?"
 amount = 10
 
-puts "Pick form the following menu:"
+puts "Pick from the following menu:"
 puts "1. USD to EUR"
 puts "2. USD to JPY"
 puts "3. USD to GBP"
